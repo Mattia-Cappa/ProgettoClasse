@@ -24,6 +24,28 @@ public class ClasseTask{
 		this.priorita = p;
 	}
 	
+	public String getNome(){
+		return this.nomeTask;
+	} 
 	
+	public String getDipendente(){
+		return this.nomeTask;
+	}
+	
+	public String getpriorita(){
+		return this.nomeTask;
+	}
+	
+	public void setNome(String nome){
+		this.nomeTask = nome;
+	}
+	
+	public void setDipendente(String dipendente){
+		this.nomeTask = dipendente;
+	}
+	
+	public void setpriorita(String priorita){
+		this.nomeTask = priorita;
+	}
 	
 }
